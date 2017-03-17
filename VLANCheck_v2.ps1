@@ -179,7 +179,7 @@ $vlan_name = $args[2]
 $ucsd_group = $args[3]
 $ucsd_sr_id = $args[4]
 $global:ucsd_psa_server = $args[5]
-$global:ucsd_psa_user = $args[6] + "@hosted1.apps"
+$global:ucsd_psa_user = $args[6]
 $global:ucsd_psa_pass = ConvertTo-SecureString -String $args[7] -AsPlainText -Force
 
 # Setting the X-Cloupia-Request-Key header for use with all of our northbound API calls
